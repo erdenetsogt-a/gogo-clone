@@ -11,6 +11,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    font-size: 30px;
 }
 
 .container {
@@ -68,4 +70,25 @@ body {
 
 .l-subfeatured-item {
     flex: 1;
+}
+
+.flex-container {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+    gap: 10px;
+}
+
+.grid-container {
+    background-color: aquamarine;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 960px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
