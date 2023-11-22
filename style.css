@@ -20,6 +20,26 @@ body {
     max-width: 1100px;
 }
 
+.section-top {
+    margin-bottom: 40px;
+}
+
+.section-stories {
+    margin-bottom: 50px;
+}
+
+.section-articles {
+    margin-bottom: 60px;
+}
+
+.section-interview {
+    margin-bottom: 60px;
+}
+
+.section-lifestyle {
+    margin-bottom: 60px;
+}
+
 .l-header {
     display: flex;
 }
@@ -72,6 +92,45 @@ body {
     flex: 1;
 }
 
+.l-stories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.l-articles {
+    display: flex;
+}
+
+.l-articles-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 70px;
+}
+
+.l-articles-side {
+    width: 340px;
+}
+
+.l-interview {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 15px;
+}
+
+.l-interview div:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.l-lifestyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
 .flex-container {
     display: flex;
     background-color: antiquewhite;
@@ -86,9 +145,9 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-
+/* 
 @media (min-width: 960px) {
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-}
+} */
