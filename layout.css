@@ -318,3 +318,48 @@ footer {
 .story:hover .story-link {
     opacity: 1;
 }
+
+.submenu {
+    list-style-type: none;
+    margin: 0;
+    background-color: #aaa;
+    padding: 0;
+}
+
+.submenu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box1,
+.box2,
+.jishee {
+    background-color: #000;
+}
+
+.submenu-item::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.submenu-item::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.submenu-decorator {
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
